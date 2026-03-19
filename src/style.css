@@ -73,3 +73,176 @@ body {
     word-spacing: 2px;
   }
 }
+
+/* --- ГАЛЕРЕЯ (MASONRY) --- */
+
+.filter-controls {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.filter-btn {
+  background: transparent;
+  border: 1px solid #444;
+  color: #a0a0a0;
+  padding: 8px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.filter-btn.active, .filter-btn:hover {
+  background: #e0e0e0;
+  color: #1a1a1b;
+  border-color: #e0e0e0;
+}
+
+.main-layout {
+  display: flex; /* Позволяет панели сдвигать галерею */
+  gap: 20px;
+  position: relative;
+  min-height: 80vh;
+}
+
+.gallery-grid {
+  flex: 1; /* Галерея занимает всё свободное место */
+  column-count: 3; /* Количество колонок для ПК */
+  column-gap: 20px;
+  transition: all 0.5s ease;
+}
+
+.gallery-item {
+  break-inside: avoid; /* Чтобы картинку не разрывало между колонками */
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #252526;
+}
+
+.gallery-item img {
+  width: 100%;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05); /* Легкий зум при наведении */
+}
+
+/* Оверлей с названием при наведении */
+.item-overlay {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .item-overlay {
+  opacity: 1;
+}
+
+/* --- БОКОВАЯ ПАНЕЛЬ --- */
+
+.side-panel {
+  width: 0;
+  opacity: 0;
+  background: #252526;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  position: sticky;
+  top: 20px;
+  height: calc(100vh - 40px);
+  border-radius: 8px;
+  /* Добавляем прокрутку всей панели, если контент не влезет */
+  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+}
+
+.side-panel.active {
+  width: 450px; /* Немного увеличим для комфорта */
+  opacity: 1;
+  padding: 40px 30px;
+  border-left: 1px solid #333;
+}
+
+.panel-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.panel-content img {
+  width: 100%;
+  /* ОГРАНИЧЕНИЕ: Картинка не выше 60% высоты экрана */
+  max-height: 60vh; 
+  /* Сохраняем пропорции, "вписывая" фото в эти границы */
+  object-fit: contain; 
+  background: #1a1a1b; /* Темная подложка, если фото узкое */
+  border-radius: 4px;
+  margin-bottom: 25px;
+  flex-shrink: 0; /* Чтобы текст не "сплющивал" картинку */
+}
+
+.panel-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.panel-content p {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Стилизация скроллбара (для красоты в Chrome/Edge) */
+.side-panel::-webkit-scrollbar {
+  width: 6px;
+}
+.side-panel::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 10px;
+}
+
+.category-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  background: #444;
+  padding: 2px 8px;
+  margin-bottom: 10px;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 10px; right: 15px;
+}
+
+/* --- АДАПТИВНОСТЬ --- */
+
+@media (max-width: 1024px) {
+  .gallery-grid { column-count: 2; } /* 2 колонки на планшетах */
+}
+
+@media (max-width: 768px) {
+  .main-layout { flex-direction: column; } /* Панель будет снизу */
+  .gallery-grid { column-count: 1; }         /* 1 колонка на телефонах */
+  
+  .side-panel.active {
+    width: 100%;
+    position: fixed; /* На мобильных выплывает снизу поверх всего */
+    bottom: 0; left: 0;
+    height: 70vh;
+    z-index: 100;
+  }
+}

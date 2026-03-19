@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "Утро в горах",
+    "category": "painting",
+    "description": "Холст, масло, 60х80 см. Работа выполнена в технике импасто.",
+    "image": "/works/h1.png",
+    "aspect": "vertical"
+  },
+  {
+    "id": "2",
+    "title": "Морской узел",
+    "category": "batik",
+    "description": "Натуральный шелк, холодный батик. 50х50 см.",
+    "image": "/works/h2.png",
+    "aspect": "square"
+  },
+  {
+    "id": "3",
+    "title": "Лесной дух",
+    "category": "rug",
+    "description": "Авторский ковер ручной работы. Шерсть, хлопок.",
+    "image": "/works/h3.png",
+    "aspect": "horizontal"
+  },
+  {
+    "id": "4",
+    "title": "Морской узел111",
+    "category": "batik",
+    "description": "Натуральный ше123123лк, холодный батик. 50х50 см.",
+    "image": "/works/s1.png",
+    "aspect": "square"
+  },
+  {
+    "id": "5",
+    "title": "Утро в горах2222",
+    "category": "painting",
+    "description": "Холст, масло, 60х80 см. Раwerwerwбота выполнена в технике импасто.",
+    "image": "/works/v1.png",
+    "aspect": "vertical"
+  },
+  {
+    "id": "6",
+    "title": "Утро в горах3333",
+    "category": "painting",
+    "description": "Холст, масло, 60х80 см. Работа вsdfvsdfvыполнена в технике импасто.",
+    "image": "/works/v2.png",
+    "aspect": "vertical"
+  }
+]
