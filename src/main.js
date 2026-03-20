@@ -70,3 +70,38 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 document.querySelector('.close-btn').addEventListener('click', () => {
   document.querySelector('.side-panel').classList.remove('active');
 });
+
+function initNavigation() {
+  const navLinks = document.querySelectorAll('.nav-link');
+  const sections = document.querySelectorAll('.page-section');
+
+  navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      
+      const targetSection = link.getAttribute('data-section');
+
+      // 1. Меняем активный класс у ссылок
+      navLinks.forEach(l => l.classList.remove('active'));
+      link.classList.add('active');
+
+      // 2. Показываем нужную секцию, скрываем остальные
+      sections.forEach(section => {
+        if (section.id === targetSection) {
+          section.classList.remove('hidden');
+        } else {
+          section.classList.add('hidden');
+        }
+      });
+
+      // 3. Закрываем боковую панель галереи при переключении
+      document.querySelector('.side-panel').classList.remove('active');
+    });
+  });
+}
+
+// Вызываем в конце DOMContentLoaded
+document.addEventListener('DOMContentLoaded', () => {
+  initGallery();
+  initNavigation();
+});

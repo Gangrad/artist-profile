@@ -7,43 +7,46 @@
     <title>Сайт-визитка</title>
   </head>
   <body>
-    <div id="app">
-      <section class="hero">
-        <div class="container">
-          
-          <h1 class="hero-title">АЛЕКСЕЙ ИВАНОВ</h1>
-          
-          <p class="hero-subtitle">живопись | батик | ковры</p>
-          
-          <div class="hero-image-wrapper">
-            <img 
-              src="https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=1600&auto=format&fit=crop" 
-              alt="Художник за работой" 
-              class="hero-image"
-            />
-          </div>
+    <header class="main-header">
+      <div class="header-container">
+        <div class="logo">
+          <img src="/logo.png" alt="Logo" /> 
+        </div>
+        <nav class="nav-menu">
+          <a href="#" class="nav-link active" data-section="home">Главная</a>
+          <a href="#" class="nav-link" data-section="gallery">Галерея</a>
+        </nav>
+      </div>
+    </header>
 
+    <main class="content">
+      <section id="home" class="page-section">
+        <div class="container">
+          <h1 class="hero-title">АЛЕКСЕЙ ИВАНОВ</h1>
+          <p class="hero-subtitle">живопись | батик | ковры</p>
+          <div class="hero-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=1600&auto=format&fit=crop" class="hero-image" />
+          </div>
         </div>
       </section>
 
-      <div class="filter-controls">
-        <button class="filter-btn active" data-filter="all">Все</button>
-        <button class="filter-btn" data-filter="painting">Живопись</button>
-        <button class="filter-btn" data-filter="batik">Батик</button>
-        <button class="filter-btn" data-filter="rug">Ковры</button>
-      </div>
+      <section id="gallery" class="page-section hidden">
+        <div class="filter-controls">
+          <button class="filter-btn active" data-filter="all">Все</button>
+          <button class="filter-btn" data-filter="painting">Живопись</button>
+          <button class="filter-btn" data-filter="batik">Батик</button>
+          <button class="filter-btn" data-filter="rug">Ковры</button>
+        </div>
 
-      <div class="main-layout">
-        <div class="gallery-grid">
-          </div>
-
-        <aside class="side-panel">
-          <button class="close-btn">&times;</button>
-          <div class="panel-content">
-            </div>
-        </aside>
-      </div>
-    </div>
+        <div class="main-layout">
+          <div class="gallery-grid"></div>
+          <aside class="side-panel">
+            <button class="close-btn">&times;</button>
+            <div class="panel-content"></div>
+          </aside>
+        </div>
+      </section>
+    </main>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>

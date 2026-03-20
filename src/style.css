@@ -12,6 +12,62 @@ body {
   line-height: 1.5;
 }
 
+/* Фиксированная шапка */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(26, 26, 27, 0.95); /* Полупрозрачный фон */
+  backdrop-filter: blur(10px); /* Эффект размытия стекла */
+  z-index: 1000;
+  border-bottom: 1px solid #333;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between; /* Лого слева, меню справа */
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 40px; /* Размер логотипа */
+  width: auto;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  color: #a0a0a0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: color 0.3s;
+}
+
+.nav-link.active, .nav-link:hover {
+  color: #fff;
+}
+
+/* Компенсация высоты шапки для контента */
+.content {
+  padding-top: 100px; 
+}
+
+/* Логика скрытия секций */
+.page-section.hidden {
+  display: none;
+}
+
 /* Ограничитель ширины контента */
 .container {
   max-width: 1200px; /* Сайт не будет «растекаться» на сверхшироких мониторах */
