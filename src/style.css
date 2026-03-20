@@ -90,6 +90,16 @@ body {
   text-transform: uppercase; /* Все буквы заглавные (для строгости) */
 }
 
+/* Статус (Член Союза...) */
+.hero-status {
+  font-size: 1.1rem;
+  color: #d4af37; /* Сдержанный золотистый оттенок для статуса */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
 /* 2. Описание работ поменьше */
 .hero-subtitle {
   font-size: 1.25rem;
@@ -116,6 +126,25 @@ body {
   display: block;
   object-fit: cover;        /* Ключевое свойство: фото заполняет область, не искажаясь */
   object-position: center;  /* Центрируем важную часть фото при обрезке */
+}
+
+/* Блок биографии */
+.bio-section {
+  max-width: 800px; /* Ограничиваем ширину текста для удобства чтения */
+  margin: 60px auto 0; /* Отступ сверху от фото и центрирование */
+  text-align: left; /* Текст биографии лучше читать с выравниванием по левому краю */
+}
+
+.bio-section p {
+  font-size: 1.1rem;
+  color: #b0b0b0;
+  line-height: 1.8; /* Увеличенное межстрочное расстояние для "воздуха" */
+  margin-bottom: 25px; /* Расстояние между абзацами */
+}
+
+/* Делаем первый абзац чуть выразительнее (опционально) */
+.bio-section p:first-of-type {
+  color: #e0e0e0;
 }
 
 /* Адаптивность для мобильных устройств */
