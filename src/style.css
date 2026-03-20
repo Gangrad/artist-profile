@@ -184,47 +184,79 @@ body {
 }
 
 .main-layout {
-  display: flex; /* Позволяет панели сдвигать галерею */
+  display: flex;
   gap: 20px;
   position: relative;
   min-height: 80vh;
+  /* Центрируем всю раскладку, если экран очень широкий */
+  justify-content: center; 
 }
 
 .gallery-grid {
-  flex: 1; /* Галерея занимает всё свободное место */
-  column-count: 3; /* Количество колонок для ПК */
+  flex: 1;
+  /* Возвращаем сетке почти всю ширину (до 90% от экрана) */
+  max-width: 90vw; 
+  
+  /* 3 колонки на ПК выглядят лучше для этого подхода */
+  column-count: 3; 
   column-gap: 20px;
   transition: all 0.5s ease;
 }
 
 .gallery-item {
-  break-inside: avoid; /* Чтобы картинку не разрывало между колонками */
+  break-inside: avoid;
   margin-bottom: 20px;
   position: relative;
   cursor: pointer;
   border-radius: 4px;
   overflow: hidden;
-  background: #252526;
+  
+  /* ВАЖНО: Задаем фон карточки, совпадающий с фоном сайта.
+     Это создаст "визуальные отступы" для узких картинок */
+  background-color: #1a1a1b; 
+  
+  /* Добавим легкую тень или обводку, чтобы карточка была видна */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px); /* Легкий подъем при наведении */
 }
 
 .gallery-item img {
-  width: 100%;
+  /* 1. Картинка пытается занять всю ширину карточки */
+  width: 100%; 
+  
+  /* 2. Жесткое ограничение высоты плитки (40% от высоты экрана) */
+  height: 40vh; 
+  
+  /* 3. КЛЮЧЕВОЕ СВОЙСТВО: Картинка вписывается целиком, не искажаясь и не обрезаясь.
+     Если она узкая, по бокам будет виден фон карточки. */
+  object-fit: contain; 
+  
   display: block;
-  transition: transform 0.5s ease;
 }
 
-.gallery-item:hover img {
-  transform: scale(1.05); /* Легкий зум при наведении */
-}
-
-/* Оверлей с названием при наведении */
+/* Оверлей (название) теперь лучше привязать к низу КАРТИНКИ, а не карточки */
 .item-overlay {
   position: absolute;
   bottom: 0; left: 0; right: 0;
-  background: linear-gradient(transparent, rgba(0,0,0,0.8));
-  padding: 20px;
+  /* Фон оверлея только там, где есть картинка */
+  background: linear-gradient(transparent, rgba(0,0,0,0.9));
+  padding: 15px;
   opacity: 0;
   transition: opacity 0.3s ease;
+  text-align: center;
+}
+
+/* Адаптив */
+@media (max-width: 1024px) {
+  .gallery-grid { column-count: 2; }
+}
+
+@media (max-width: 768px) {
+  .gallery-grid { column-count: 1; max-width: 95vw;}
 }
 
 .gallery-item:hover .item-overlay {
