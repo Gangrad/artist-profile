@@ -186,7 +186,7 @@ body {
 .main-layout {
   display: flex;
   gap: 20px;
-  width: 100%;
+  width: 95%;
   max-width: 1600px; /* Чтобы на сверхшироких мониторах не разъезжалось */
   margin: 0 auto;
   align-items: flex-start; /* Панель не будет растягиваться по высоте на весь контент галереи */
