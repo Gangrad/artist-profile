@@ -1,50 +1,114 @@
 [
   {
-    "id": "1",
-    "title": "Утро в горах",
-    "category": "painting",
-    "description": "Холст, масло, 60х80 см. Работа выполнена в технике импасто.",
-    "image": "/works/h1.png",
-    "aspect": "vertical"
-  },
-  {
-    "id": "2",
-    "title": "Морской узел",
-    "category": "batik",
-    "description": "Натуральный шелк, холодный батик. 50х50 см.",
-    "image": "/works/h2.png",
-    "aspect": "square"
-  },
-  {
-    "id": "3",
-    "title": "Лесной дух",
-    "category": "rug",
-    "description": "Авторский ковер ручной работы. Шерсть, хлопок.",
-    "image": "/works/h3.png",
+    "id": "tap1",
+    "title": "title1",
+    "category": "tapestry",
+    "description": "desc1",
+    "image": "/works/tapestry_001.jpg",
     "aspect": "horizontal"
   },
   {
-    "id": "4",
-    "title": "Морской узел111",
-    "category": "batik",
-    "description": "Натуральный ше123123лк, холодный батик. 50х50 см.",
-    "image": "/works/s1.png",
+    "id": "tap2",
+    "title": "title2",
+    "category": "tapestry",
+    "description": "desc2",
+    "image": "/works/tapestry_002.jpg",
     "aspect": "square"
   },
   {
-    "id": "5",
-    "title": "Утро в горах2222",
-    "category": "painting",
-    "description": "Холст, масло, 60х80 см. Раwerwerwбота выполнена в технике импасто.",
-    "image": "/works/v1.png",
+    "id": "tap3",
+    "title": "title3",
+    "category": "tapestry",
+    "description": "desc3",
+    "image": "/works/tapestry_003.jpg",
+    "aspect": "square"
+  },
+  {
+    "id": "tap4",
+    "title": "title4",
+    "category": "tapestry",
+    "description": "desc4",
+    "image": "/works/tapestry_004.jpg",
+    "aspect": "horizontal"
+  },
+  {
+    "id": "tap5",
+    "title": "title5",
+    "category": "tapestry",
+    "description": "desc5",
+    "image": "/works/tapestry_005.jpg",
+    "aspect": "horizontal"
+  },
+  {
+    "id": "tap6",
+    "title": "title6",
+    "category": "tapestry",
+    "description": "desc6",
+    "image": "/works/tapestry_006.jpg",
+    "aspect": "horizontal"
+  },
+  {
+    "id": "tap7",
+    "title": "title7",
+    "category": "tapestry",
+    "description": "desc7",
+    "image": "/works/tapestry_007.jpg",
     "aspect": "vertical"
   },
   {
-    "id": "6",
-    "title": "Утро в горах3333",
+    "id": "tap8",
+    "title": "title8",
+    "category": "tapestry",
+    "description": "desc8",
+    "image": "/works/tapestry_008.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "tap9",
+    "title": "title9",
+    "category": "tapestry",
+    "description": "desc9",
+    "image": "/works/tapestry_009.jpg",
+    "aspect": "horizontal"
+  },
+  {
+    "id": "tap10",
+    "title": "title10",
+    "category": "tapestry",
+    "description": "desc10",
+    "image": "/works/tapestry_010.jpg",
+    "aspect": "horizontal"
+  },
+  {
+    "id": "paint1",
+    "title": "title_paint_1",
     "category": "painting",
-    "description": "Холст, масло, 60х80 см. Работа вsdfvsdfvыполнена в технике импасто.",
-    "image": "/works/v2.png",
+    "description": "desc1",
+    "image": "/works/painting_001.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint2",
+    "title": "title_paint_2",
+    "category": "painting",
+    "description": "desc2",
+    "image": "/works/painting_002.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint3",
+    "title": "title_paint_3",
+    "category": "painting",
+    "description": "desc3",
+    "image": "/works/painting_003.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint4",
+    "title": "title_paint_4",
+    "category": "painting",
+    "description": "desc4",
+    "image": "/works/painting_004.jpg",
     "aspect": "vertical"
   }
 ]
