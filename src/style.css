@@ -186,42 +186,34 @@ body {
 .main-layout {
   display: flex;
   gap: 20px;
-  position: relative;
-  min-height: 80vh;
+  width: 100%;
+  max-width: 1600px; /* Чтобы на сверхшироких мониторах не разъезжалось */
+  margin: 0 auto;
+  align-items: flex-start; /* Панель не будет растягиваться по высоте на весь контент галереи */
+  
   /* Центрируем всю раскладку, если экран очень широкий */
   justify-content: center; 
 }
 
 .gallery-grid {
-  flex: 1;
-  /* Возвращаем сетке почти всю ширину (до 90% от экрана) */
-  max-width: 90vw; 
-  
-  /* 3 колонки на ПК выглядят лучше для этого подхода */
-  column-count: 3; 
-  column-gap: 20px;
-  transition: all 0.5s ease;
+  /* Разрешаем галерее занимать всё место и СЖИМАТЬСЯ, когда панель открыта */
+  flex: 1 1 auto; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .gallery-item {
-  break-inside: avoid;
-  margin-bottom: 20px;
   position: relative;
-  cursor: pointer;
-  border-radius: 4px;
+  /* Убираем жесткий расчет 33%, даем браузеру больше свободы */
+  flex: 1 1 300px; /* Расти до 1, сжимайся до 1, базис 300px */
+  max-width: 400px; /* Ограничиваем сверху, чтобы не была гигантской */
+  
+  background-color: #1a1a1b;
   overflow: hidden;
-  
-  /* ВАЖНО: Задаем фон карточки, совпадающий с фоном сайта.
-     Это создаст "визуальные отступы" для узких картинок */
-  background-color: #1a1a1b; 
-  
-  /* Добавим легкую тень или обводку, чтобы карточка была видна */
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  transition: transform 0.3s ease;
-}
-
-.gallery-item:hover {
-  transform: translateY(-5px); /* Легкий подъем при наведении */
+  border-radius: 4px;
 }
 
 .gallery-item img {
@@ -238,6 +230,15 @@ body {
   display: block;
 }
 
+.gallery-item:hover {
+  /* Легкий подъем при наведении */
+  transform: translateY(-5px);
+}
+
+.gallery-item:hover .item-overlay {
+  opacity: 1;
+}
+
 /* Оверлей (название) теперь лучше привязать к низу КАРТИНКИ, а не карточки */
 .item-overlay {
   position: absolute;
@@ -250,41 +251,30 @@ body {
   text-align: center;
 }
 
-/* Адаптив */
-@media (max-width: 1024px) {
-  .gallery-grid { column-count: 2; }
-}
-
-@media (max-width: 768px) {
-  .gallery-grid { column-count: 1; max-width: 95vw;}
-}
-
-.gallery-item:hover .item-overlay {
-  opacity: 1;
-}
-
 /* --- БОКОВАЯ ПАНЕЛЬ --- */
 
 .side-panel {
   width: 0;
   opacity: 0;
+  flex: 0 0 0; /* Не растет, не сжимается, ширина 0 */
   background: #252526;
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   position: sticky;
-  top: 20px;
-  height: calc(100vh - 40px);
+  top: 90px; /* Учитываем высоту шапки */
+  height: calc(100vh - 150px);
+  overflow-y: auto;
   border-radius: 8px;
-  /* Добавляем прокрутку всей панели, если контент не влезет */
-  overflow-y: auto; 
+
   display: flex;
   flex-direction: column;
 }
 
 .side-panel.active {
-  width: 450px; /* Немного увеличим для комфорта */
+  flex: 0 0 45%; /* ЗАНИМАЕТ 45% ширины экрана */
+  width: auto;
   opacity: 1;
   padding: 40px 30px;
-  border-left: 1px solid #333;
+  margin-left: 20px;
 }
 
 .panel-content {
@@ -347,19 +337,14 @@ body {
 
 /* --- АДАПТИВНОСТЬ --- */
 
-@media (max-width: 1024px) {
-  .gallery-grid { column-count: 2; } /* 2 колонки на планшетах */
-}
-
 @media (max-width: 768px) {
   .main-layout { flex-direction: column; } /* Панель будет снизу */
-  .gallery-grid { column-count: 1; }         /* 1 колонка на телефонах */
   
   .side-panel.active {
-    width: 100%;
+    width: 90%;
     position: fixed; /* На мобильных выплывает снизу поверх всего */
-    bottom: 0; left: 0;
-    height: 70vh;
+    bottom: 0; left: 5vh; top: 15vh;
+    height: 80vh;
     z-index: 100;
   }
 }
