@@ -159,6 +159,75 @@ body {
   }
 }
 
+/* Контакты на главной */
+.contacts-footer {
+  margin-top: 80px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+/* Горизонтальная черта */
+.contact-divider {
+  border: none;
+  border-top: 1px solid #333;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Центрируем иконку и текст по вертикали */
+  gap: 30px; /* Немного уменьшим зазор */
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+/* Стили для текстовой ссылки Email */
+.email-link {
+  color: #a0a0a0; /* Делаем Email серым по умолчанию */
+  font-size: 1rem;
+}
+
+.email-link .contact-label {
+  color: #d4af37; /* Лейбл Email остается золотистым */
+  margin-right: 8px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.email-link:hover {
+  color: #fff; /* При наведении Email становится белым */
+}
+
+/* Стили для ИКОНКИ ВК */
+.vk-icon-link {
+  color: #555; /* ТЕМНО-СЕРЫЙ цвет по умолчанию (как вы хотели) */
+  font-size: 2rem; /* Увеличиваем размер иконки, чтобы она была заметной */
+}
+
+.vk-icon-link:hover {
+  color: #fff; /* При наведении иконка становится БЕЛОЙ */
+  /* Альтернатива: color: #d4af37; (сделать золотистой) */
+  transform: scale(1.1); /* Легкое увеличение при наведении */
+}
+
+/* Адаптив */
+@media (max-width: 600px) {
+  .contact-links {
+    flex-direction: column;
+    gap: 25px;
+  }
+}
+
 /* --- ГАЛЕРЕЯ (MASONRY) --- */
 
 .filter-controls {
