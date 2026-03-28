@@ -351,3 +351,106 @@ body {
     z-index: 100;
   }
 }
+
+/* Раздел Книги */
+.books-intro {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #b0b0b0;
+}
+
+/* Контейнер для списка книг */
+.books-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Обертка для каждой книги (нужна для линий) */
+.book-item-wrapper {
+  width: 100%;
+  padding: 60px 0; /* Отступы вокруг книги */
+  border-top: 1px solid #333; /* Тонкая линия ПЕРЕД каждой книгой */
+}
+
+/* Убираем линию у самой первой книги, чтобы не дублировать заголовок раздела */
+.book-item-wrapper:first-child {
+  border-top: none;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: row; /* Явно задаем горизонтальное расположение */
+  gap: 50px;           /* Большой зазор между обложкой и текстом */
+  align-items: flex-start;
+  text-align: left;
+}
+
+.book-cover {
+  flex: 0 0 250px;     /* Фиксированная ширина обложки */
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.5); /* Глубокая "книжная" тень */
+}
+
+.book-cover img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.book-info {
+  flex: 1;             /* Занимает всё оставшееся пространство */
+  display: flex;
+  flex-direction: column;
+}
+
+.book-info h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.book-info p {
+  color: #a0a0a0;
+  line-height: 1.6;
+}
+
+.book-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #b0b0b0;
+  margin-bottom: 20px; /* Отступ перед названием */
+  font-style: italic;  /* Выделим описание курсивом для стиля */
+}
+
+.book-title {
+  font-size: 1.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Адаптивность: на телефонах возвращаем в вертикальный вид */
+@media (max-width: 768px) {
+  .book-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+  
+  .book-cover {
+    flex: 0 0 auto;
+    width: 200px;
+  }
+  
+  .book-item-wrapper {
+    padding: 40px 0;
+  }
+}

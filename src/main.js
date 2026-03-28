@@ -1,5 +1,6 @@
 import './style.css';
 import galleryData from './gallery.json';
+import booksData from './books.json';
 
 const app = document.querySelector('#app');
 
@@ -100,8 +101,27 @@ function initNavigation() {
   });
 }
 
-// Вызываем в конце DOMContentLoaded
+function initBooks() {
+  const container = document.querySelector('#books-list');
+  
+  container.innerHTML = booksData.map(book => `
+    <div class="book-item-wrapper">
+      <div class="book-card">
+        <div class="book-cover">
+          <img src="${book.image}" alt="${book.title}">
+        </div>
+        <div class="book-info">
+          <h3 class="book-title">${book.title}</h3>
+          <p class="book-description">${book.description}</p>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
+// Вставьте вызов initBooks() в обработчик DOMContentLoaded
 document.addEventListener('DOMContentLoaded', () => {
   initGallery();
+  initBooks(); // Добавили инициализацию книг
   initNavigation();
 });
