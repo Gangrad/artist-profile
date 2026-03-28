@@ -231,8 +231,7 @@ body {
 }
 
 .gallery-item:hover {
-  /* Легкий подъем при наведении */
-  transform: translateY(-5px);
+  transform: scale(1.03);
 }
 
 .gallery-item:hover .item-overlay {
@@ -307,6 +306,10 @@ body {
   margin-bottom: 20px;
 }
 
+.panel-content p:last-of-type {
+  padding-bottom: 10px;
+}
+
 /* Стилизация скроллбара (для красоты в Chrome/Edge) */
 .side-panel::-webkit-scrollbar {
   width: 6px;
@@ -341,9 +344,9 @@ body {
   .main-layout { flex-direction: column; } /* Панель будет снизу */
   
   .side-panel.active {
-    width: 90%;
+    width: 85%;
     position: fixed; /* На мобильных выплывает снизу поверх всего */
-    bottom: 0; left: 5vh; top: 15vh;
+    bottom: 0; left: 3vh; top: 15vh;
     height: 80vh;
     z-index: 100;
   }
