@@ -1,9 +1,9 @@
 [
   {
     "id": "tap1",
-    "title": "title1",
+    "title": "Вирсавия",
     "category": "tapestry",
-    "description": "desc1",
+    "description": "1991, 200х240",
     "image": "/works/tapestry_001.jpg",
     "aspect": "horizontal"
   },
@@ -17,17 +17,17 @@
   },
   {
     "id": "tap3",
-    "title": "title3",
+    "title": "Эдип и Сфинкс",
     "category": "tapestry",
-    "description": "desc3",
+    "description": "1992, 200х215",
     "image": "/works/tapestry_003.jpg",
     "aspect": "square"
   },
   {
     "id": "tap4",
-    "title": "title4",
+    "title": "Встреча Соломона и царицы Савской",
     "category": "tapestry",
-    "description": "desc4",
+    "description": "2014, 200х260",
     "image": "/works/tapestry_004.jpg",
     "aspect": "horizontal"
   },
@@ -41,25 +41,25 @@
   },
   {
     "id": "tap6",
-    "title": "title6",
+    "title": "Похищение Европы",
     "category": "tapestry",
-    "description": "desc6",
+    "description": "2016, 200х215",
     "image": "/works/tapestry_006.jpg",
     "aspect": "horizontal"
   },
   {
     "id": "tap7",
-    "title": "title7",
+    "title": "Диана",
     "category": "tapestry",
-    "description": "desc7",
+    "description": "2019, 130х70",
     "image": "/works/tapestry_007.jpg",
     "aspect": "vertical"
   },
   {
     "id": "tap8",
-    "title": "title8",
+    "title": "Леда и Лебедь",
     "category": "tapestry",
-    "description": "desc8",
+    "description": "2002-2003, 200х110",
     "image": "/works/tapestry_008.jpg",
     "aspect": "vertical"
   },
@@ -73,9 +73,9 @@
   },
   {
     "id": "tap10",
-    "title": "title10",
+    "title": "Великие пряхи. Богини Мойры (Парки)",
     "category": "tapestry",
-    "description": "desc10",
+    "description": "2018, 200х270",
     "image": "/works/tapestry_010.jpg",
     "aspect": "horizontal"
   },
@@ -97,9 +97,9 @@
   },
   {
     "id": "paint3",
-    "title": "title_paint_3",
+    "title": "Юный художник Петя",
     "category": "painting",
-    "description": "desc3",
+    "description": "2021, 60х50",
     "image": "/works/painting_003.jpg",
     "aspect": "vertical"
   },
