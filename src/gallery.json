@@ -80,6 +80,22 @@
     "aspect": "horizontal"
   },
   {
+    "id": "tap11",
+    "title": "",
+    "category": "tapestry",
+    "description": "",
+    "image": "/works/tapestry_011.jpg",
+    "aspect": "horizontal"
+  },
+  {
+    "id": "tap12",
+    "title": "",
+    "category": "tapestry",
+    "description": "",
+    "image": "/works/tapestry_012.jpg",
+    "aspect": "horizontal"
+  },
+  {
     "id": "paint1",
     "title": "title_paint_1",
     "category": "painting",
