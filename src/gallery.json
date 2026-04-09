@@ -382,5 +382,613 @@
     "description": "desc4",
     "image": "/works/painting_004.jpg",
     "aspect": "vertical"
+  },
+  {
+    "id": "graphics_001",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_001.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_002",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_002.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_003",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_003.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_004",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_004.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_005",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_005.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_006",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_006.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_007",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_007.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_008",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_008.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_009",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_009.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_010",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_010.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_011",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_011.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_012",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_012.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_013",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_013.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_014",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_014.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_015",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_015.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_016",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_016.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_017",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_017.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_018",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_018.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_019",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_019.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_020",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_020.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_021",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_021.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_022",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_022.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_023",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_023.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_024",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_024.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_025",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_025.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_026",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_026.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_027",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_027.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_028",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_028.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_029",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_029.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_030",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_030.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_031",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_031.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_032",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_032.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_033",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_033.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_034",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_034.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_035",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_035.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_036",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_036.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_037",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_037.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_038",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_038.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_039",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_039.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_040",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_040.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_041",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_041.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_042",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_042.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_043",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_043.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_044",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_044.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_045",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_045.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_046",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_046.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_047",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_047.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_048",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_048.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_049",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_049.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_050",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_050.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_051",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_051.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_052",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_052.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_053",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_053.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_054",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_054.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_055",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_055.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_056",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_056.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_057",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_057.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_058",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_058.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_059",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_059.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_060",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_060.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_061",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_061.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_062",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_062.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_063",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_063.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_064",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_064.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_065",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_065.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_066",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_066.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_067",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_067.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_068",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_068.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_069",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_069.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_070",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_070.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_071",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_071.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_072",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_072.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_073",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_073.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_074",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_074.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_075",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_075.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "graphics_076",
+    "title": "",
+    "category": "graphics",
+    "description": "",
+    "image": "/works/graphics/graphics_076.jpg",
+    "aspect": "vertical"
   }
 ]
