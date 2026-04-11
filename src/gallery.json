@@ -1,17 +1,17 @@
 [
   {
     "id": "tap1",
-    "title": "",
+    "title": "Выставка гобеленов Андрея Мадекина в фойе театра Геликон-Опера", 
     "category": "tapestry",
-    "description": "",
+    "description": "Москва 2019 г.",
     "image": "/works/tapestry_001.jpg",
     "aspect": "horizontal"
   },
   {
     "id": "tap2",
-    "title": "",
+    "title": "Две мои трактовки известного античного мифа «Похищение Европы» с разницей в четверть века. Слева гобелен 2016 г, Внизу – 1992 г.",
     "category": "tapestry",
-    "description": "",
+    "description": "Ручное ткачество, шерсть,хлопок, 200 х 215 см.",
     "image": "/works/tapestry_002.jpg",
     "aspect": "square"
   },
