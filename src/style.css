@@ -261,7 +261,7 @@ body {
 }
 
 .main-layout {
-  display: flex;
+  display: block; /* Убираем flex, чтобы сетка занимала всю ширину */
   gap: 20px;
   width: 95%;
   max-width: 1600px; /* Чтобы на сверхшироких мониторах не разъезжалось */
@@ -273,13 +273,12 @@ body {
 }
 
 .gallery-grid {
-  /* Разрешаем галерее занимать всё место и СЖИМАТЬСЯ, когда панель открыта */
-  flex: 1 1 auto; 
+  width: 100%; /* Галерея всегда на всю ширину */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
-  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition больше не нужен, так как сетка не двигается */
 }
 
 .gallery-item {
@@ -329,46 +328,50 @@ body {
 
 /* --- БОКОВАЯ ПАНЕЛЬ --- */
 
+/* В блоке БОКОВАЯ ПАНЕЛЬ */
 .side-panel {
-  width: 0;
+  position: fixed; /* Фиксируем относительно экрана */
+  top: 0;
+  left: 0;
+  width: 100vw;    /* На весь экран */
+  height: 100vh;   /* На весь экран */
+  background: rgba(20, 20, 21, 0.98); /* Почти непрозрачный темный фон */
+  z-index: 2000;   /* Выше шапки (у которой 1000) */
+  
   opacity: 0;
-  flex: 0 0 0; /* Не растет, не сжимается, ширина 0 */
-  background: #252526;
-  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  position: sticky;
-  top: 90px; /* Учитываем высоту шапки */
-  height: calc(100vh - 150px);
-  overflow-y: auto;
-  border-radius: 8px;
-
+  visibility: hidden; /* Полностью скрываем, когда не активна */
+  transition: all 0.4s ease;
+  
   display: flex;
-  flex-direction: column;
+  justify-content: center; /* Центрируем контент по горизонтали */
+  align-items: center;     /* Центрируем контент по вертикали */
+  padding: 40px;
 }
 
 .side-panel.active {
-  flex: 0 0 45%; /* ЗАНИМАЕТ 45% ширины экрана */
-  width: auto;
   opacity: 1;
-  padding: 40px 30px;
-  margin-left: 20px;
+  visibility: visible;
+  /* Убираем flex-basis и margin, они больше не нужны */
+  flex: none; 
 }
 
 .panel-content {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  background: #252526;
+  max-width: 1000px; /* Ограничиваем ширину контента внутри оверлея */
+  width: 100%;
+  max-height: 90vh;  /* Чтобы не вылезало за границы экрана */
+  padding: 40px;
+  border-radius: 12px;
+  overflow-y: auto;  /* Если текста много, он будет скроллиться внутри окошка */
+  position: relative;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
 }
 
 .panel-content img {
-  width: 100%;
-  /* ОГРАНИЧЕНИЕ: Картинка не выше 60% высоты экрана */
-  max-height: 60vh; 
-  /* Сохраняем пропорции, "вписывая" фото в эти границы */
-  object-fit: contain; 
-  background: #1a1a1b; /* Темная подложка, если фото узкое */
-  border-radius: 4px;
-  margin-bottom: 25px;
-  flex-shrink: 0; /* Чтобы текст не "сплющивал" картинку */
+  width: 95%;
+  max-height: 70vh; /* Картинка может быть побольше */
+  object-fit: contain;
+  margin-bottom: 30px;
 }
 
 .panel-content h2 {
@@ -418,14 +421,17 @@ body {
 /* --- АДАПТИВНОСТЬ --- */
 
 @media (max-width: 768px) {
-  .main-layout { flex-direction: column; } /* Панель будет снизу */
+  .side-panel {
+    padding: 20px; /* Меньше отступы на мобиле */
+  }
   
-  .side-panel.active {
-    width: 85%;
-    position: fixed; /* На мобильных выплывает снизу поверх всего */
-    bottom: 0; left: 3vh; top: 15vh;
-    height: 80vh;
-    z-index: 100;
+  .panel-content {
+    padding: 20px;
+    max-height: 95vh;
+  }
+
+  .panel-content h2 {
+    font-size: 1.4rem;
   }
 }
 

@@ -26,21 +26,48 @@ function initGallery() {
       showDetails(data);
     });
   });
+
+  document.querySelector('.side-panel').addEventListener('click', (e) => {
+    if (e.target.classList.contains('side-panel')) {
+      closePanel();
+    }
+  });
 }
 
 // Функция показа деталей
 function showDetails(data) {
-  const panel = document.querySelector('.side-panel');
+const panel = document.querySelector('.side-panel');
   const content = document.querySelector('.panel-content');
-  
+
+  // 1. Сбрасываем скролл в самый верх у обоих контейнеров
+  panel.scrollTop = 0;
+  if (content) content.scrollTop = 0;
+
+  // 2. Наполняем контентом
   content.innerHTML = `
     <img src="${data.image}" alt="${data.title}">
-    <h2>${data.title}</h2>
-    <p class="category-label">${data.category}</p>
-    <p>${data.description}</p>
+    <div class="panel-text-content">
+      <p class="category-label" data-type="${data.category}">${data.category}</p>
+      <h2 class="book-title">${data.title}</h2>
+      <p>${data.description}</p>
+    </div>
+    <button class="close-btn">&times;</button>
   `;
   
+  // 3. Показываем панель и блокируем скролл сайта
   panel.classList.add('active');
+  document.body.style.overflow = 'hidden';
+
+  // 4. Важно: так как мы перезаписали innerHTML, нужно заново найти кнопку закрытия
+  content.querySelector('.close-btn').addEventListener('click', closePanel);
+}
+
+function closePanel() {
+  const sidePanel = document.querySelector('.side-panel');
+  sidePanel.classList.remove('active');
+  
+  // Возвращаем скролл основной странице
+  document.body.style.overflow = '';
 }
 
 // Запускаем при загрузке
@@ -65,11 +92,6 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
       }
     });
   });
-});
-
-// Закрытие панели
-document.querySelector('.close-btn').addEventListener('click', () => {
-  document.querySelector('.side-panel').classList.remove('active');
 });
 
 function initNavigation() {
@@ -124,4 +146,14 @@ document.addEventListener('DOMContentLoaded', () => {
   initGallery();
   initBooks(); // Добавили инициализацию книг
   initNavigation();
+});
+
+// Глобальный слушатель нажатия клавиш
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    const sidePanel = document.querySelector('.side-panel');
+    if (sidePanel.classList.contains('active')) {
+      closePanel(); // Вызываем вашу функцию закрытия
+    }
+  }
 });
