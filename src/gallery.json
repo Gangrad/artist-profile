@@ -353,34 +353,426 @@
   },
   {
     "id": "paint1",
-    "title": "title_paint_1",
+    "title": "Автопортрет",
     "category": "painting",
-    "description": "desc1",
+    "description": "",
     "image": "/works/paints/paint_01.jpg",
     "aspect": "vertical"
   },
   {
-    "id": "paint2",
-    "title": "title_paint_2",
+    "id": "paint5",
+    "title": "Автопортрет с Рембрандтом",
     "category": "painting",
-    "description": "desc2",
-    "image": "/works/paints/paint_02.jpg",
+    "description": "2021 г. х.м., 80 х 60 см",
+    "image": "/works/paints/paint05.jpg",
     "aspect": "vertical"
   },
   {
-    "id": "paint3",
+    "id": "paint6",
+    "title": "Дербенёв Павел Никанорович",
+    "category": "painting",
+    "description": "Портрет прадеда А.Мадекина с регалиями Городского головы Иваново-Вознесенска, пост которого он занимал с 1994 по 1905 год. 2018 г. х.м., 90 х 70 см",
+    "image": "/works/paints/paint06.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint7",
+    "title": "Морокины Дмитрий Федорович и Федор Дмитриевич",
+    "category": "painting",
+    "description": "Портрет прадеда и деда А.Мадекина, известных текстильных предпринимателей города Вичуги Ивановского края. 2021 г. х.м., 75 х 95 см",
+    "image": "/works/paints/paint07.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint8",
+    "title": "Дербенёва-Морокина Наталья Павловна",
+    "category": "painting",
+    "description": "Бабушка А. Мадекина по фотографии 1917 года. 2018 г. х.м., 70 х 50 см",
+    "image": "/works/paints/paint08.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint9",
+    "title": "Дербенёва-Фокина Елена Павловна",
+    "category": "painting",
+    "description": "Родная тетя и воспитательница матери А.Мадекина. 2021 г. х.м., 70 х 50 см",
+    "image": "/works/paints/paint09.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint10",
+    "title": "Мадекин Илья Андреевич. 1945 год",
+    "category": "painting",
+    "description": "Портрет отца А.Мадекина в военной форме. 2025 г. х.м., 110 х 60 см",
+    "image": "/works/paints/paint10.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint11",
+    "title": "Пичугина Наталия Алексеевна",
+    "category": "painting",
+    "description": "Портрет первой жены А.Мадекина. 2001 г. х.м., 90 х 85 см",
+    "image": "/works/paints/paint11.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint12",
+    "title": "Пичугина Татьяна Степановна",
+    "category": "painting",
+    "description": "Бабушка Сергея Мадекина. 2009 г. х.акрил., 70 х 50 см",
+    "image": "/works/paints/paint12.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint13",
+    "title": "Сергей Мадекин",
+    "category": "painting",
+    "description": "Портрет старшего сына А.Мадекина. 2021 г. х.м., 110 х 60 см",
+    "image": "/works/paints/paint13.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint14",
+    "title": "Сергей Мадекин с Алистером",
+    "category": "painting",
+    "description": "Портрет старшего сына А.Мадекина. 2022 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint14.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint15",
+    "title": "Карина",
+    "category": "painting",
+    "description": "2021 г. х.м., 70 х 50 см",
+    "image": "/works/paints/paint15.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint16",
+    "title": "Букет роз. Карина",
+    "category": "painting",
+    "description": "2022 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint16.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint17",
+    "title": "Алешка",
+    "category": "painting",
+    "description": "Портрет младшего сына А.Мадекина. 2024 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint17.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint18",
+    "title": "Future changer",
+    "category": "painting",
+    "description": "Алешке два годика 2024 г. х.м., 50 х 35 см",
+    "image": "/works/paints/paint18.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint19",
+    "title": "Автопортрет с садху в Непале",
+    "category": "painting",
+    "description": "2025 г. х.м., 60 х 90 см",
+    "image": "/works/paints/paint19.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint20",
+    "title": "Архимандрит Антоний Мезенцев",
+    "category": "painting",
+    "description": "2024 г. х.м., 70 х 50 см",
+    "image": "/works/paints/paint20.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint21",
+    "title": "Преосвященный Александр (Егоров)",
+    "category": "painting",
+    "description": "2025 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint21.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint21a",
+    "title": "Сергей Михайлович Третьяков",
+    "category": "painting",
+    "description": "2025 г. х.м., 80 х 60 см",
+    "image": "/works/paints/paint21a.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint22",
+    "title": "Чаепитие",
+    "category": "painting",
+    "description": "Портрет Надежды Егоровой. 2019 г. х.м., 90 х 100 см",
+    "image": "/works/paints/paint22.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint23",
+    "title": "Екатерина Егорова и Соня",
+    "category": "painting",
+    "description": "2025 г. х.м., 80 х 60 см",
+    "image": "/works/paints/paint23.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint24",
+    "title": "реконструктор Валерий Рубаненко",
+    "category": "painting",
+    "description": "2019 г. х.м., 80 х 50 см",
+    "image": "/works/paints/paint24.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint25",
+    "title": "художник кино Шавкат Абдусаламов",
+    "category": "painting",
+    "description": "2021 г. х.м., 80 х 60 см",
+    "image": "/works/paints/paint25.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint26",
+    "title": "мастер гобелена Марат Тажибаев",
+    "category": "painting",
+    "description": "2022 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint26.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint27",
+    "title": "Марат Тажибаев. Фрагмент",
+    "category": "painting",
+    "description": "2022 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint27.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint28",
+    "title": "Скульптор Владимир Суровцев",
+    "category": "painting",
+    "description": "2022 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint28.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint29",
+    "title": "График Геннадий Животов",
+    "category": "painting",
+    "description": "2024 г. х.м., 60 х 40 см",
+    "image": "/works/paints/paint29.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint30",
+    "title": "Мультипликатор Валерий Чурик",
+    "category": "painting",
+    "description": "2023 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint30.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint31",
+    "title": "Искусствовед Станислав Айдинян",
+    "category": "painting",
+    "description": "2023 г. х.м., 80 х 60 см",
+    "image": "/works/paints/paint31.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint32",
+    "title": "Художник Виктор Багров",
+    "category": "painting",
+    "description": "2025 г. х.м., 80 х 50 см",
+    "image": "/works/paints/paint32.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint33",
+    "title": "Художник Искан Ильязов",
+    "category": "painting",
+    "description": "2023 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint33.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint34",
+    "title": "Писатель Татьяна Графова",
+    "category": "painting",
+    "description": "2021 г. х.м., 80 х 50 см",
+    "image": "/works/paints/paint34.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint35",
+    "title": "Ольга Николаевна Шелепеева",
+    "category": "painting",
+    "description": "Портрет народного мастера Мезенской росписи 2024 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint35.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint36",
+    "title": "Дарья Гусейнова",
+    "category": "painting",
+    "description": "Актриса Геликон-Оперы. 2021 г. х.м., 80 х 60 см",
+    "image": "/works/paints/paint36.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint36a",
+    "title": "Писатель Екатерина Гринева-Барсова",
+    "category": "painting",
+    "description": "2017 г. х.м., 70 х 50 см",
+    "image": "/works/paints/paint36a.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint37",
+    "title": "Модель Инна Иванова",
+    "category": "painting",
+    "description": "2022 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint37.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint38",
+    "title": "Татьяна",
+    "category": "painting",
+    "description": "2017 г. х.м., 50 х 35 см",
+    "image": "/works/paints/paint38.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint39",
+    "title": "Татьяна за работой",
+    "category": "painting",
+    "description": "2024 г. х.м., 90 х 50 см",
+    "image": "/works/paints/paint39.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint40",
+    "title": "Солдат на отдыхе",
+    "category": "painting",
+    "description": "2023 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint40.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint41",
+    "title": "Ирина",
+    "category": "painting",
+    "description": "2017 г. х.м., 50 х 35 см",
+    "image": "/works/paints/paint41.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint42",
+    "title": "Вероника",
+    "category": "painting",
+    "description": "2021 г. х.м., 40 х 30 см",
+    "image": "/works/paints/paint42.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint43",
     "title": "Юный художник Петя",
     "category": "painting",
-    "description": "2021, 60х50",
-    "image": "/works/paints/paint_03.jpg",
+    "description": "2021 г. х.м., 70 х 50 см",
+    "image": "/works/paints/paint43.jpg",
     "aspect": "vertical"
   },
   {
-    "id": "paint4",
-    "title": "title_paint_4",
+    "id": "paint44",
+    "title": "Девушка с письмом",
     "category": "painting",
-    "description": "desc4",
-    "image": "/works/paints/paint_04.jpg",
+    "description": "Настя. 2021 г. х.м., 70 х 50 см",
+    "image": "/works/paints/paint44.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint45",
+    "title": "Золотошвейка",
+    "category": "painting",
+    "description": "Марина за работой в золотошвейной мастерской. 2021 г. х.м., 60 х 50 см",
+    "image": "/works/paints/paint45.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint46",
+    "title": "Девушка с веером",
+    "category": "painting",
+    "description": "Настя. 2020 г. х.м., 70 х 50 см",
+    "image": "/works/paints/paint46.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint47",
+    "title": "На диване",
+    "category": "painting",
+    "description": "Портрет Наташи. 2021 г. х.м., 60 х 110 см",
+    "image": "/works/paints/paint47.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint48",
+    "title": "Гадалка",
+    "category": "painting",
+    "description": "Портрет Раи с картами Таро. 2019 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint48.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint49",
+    "title": "Николетта",
+    "category": "painting",
+    "description": "2017 г. х.м., 60 х 50 см",
+    "image": "/works/paints/paint49.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint50",
+    "title": "Денди",
+    "category": "painting",
+    "description": "Портрет Кнстантина Ершова. 2024 г. х.м., 90 х 60 см",
+    "image": "/works/paints/paint50.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint51",
+    "title": "Сизалтина",
+    "category": "painting",
+    "description": "2022 г. х.м., 60 х 40 см",
+    "image": "/works/paints/paint51.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint52",
+    "title": "Боксер Кристиан",
+    "category": "painting",
+    "description": "2022 г. х.м., 60 х 40 см",
+    "image": "/works/paints/paint52.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint53",
+    "title": "А.С. Грибоедов",
+    "category": "painting",
+    "description": "Портрет писателя на набережной реки Мойки в Санкт-Петербурге на фоне здания Генерального штаба, где он работал в Министерстве иностранных дел. 2025 г. х.м., 70 х 80 см. Собрание музея Грибоедова в музее-усадьбе «Хмелита» в Смоленской области",
+    "image": "/works/paints/paint53.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint54",
+    "title": "Автопортрет",
+    "category": "painting",
+    "description": "2022 г. х.м., 110 х 60 см",
+    "image": "/works/paints/paint54.jpg",
     "aspect": "vertical"
   },
   {
