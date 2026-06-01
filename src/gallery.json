@@ -427,7 +427,7 @@
     "id": "paint10",
     "title": "Фонтан",
     "category": "metaphysic",
-    "description": "1993 г., х.м. 60 х 64 см ",
+    "description": "1993 г., х.м. 60 х 64 см, частное собрание",
     "image": "/works/metaphysics/paint10.jpg",
     "aspect": "vertical"
   },
@@ -480,6 +480,14 @@
     "aspect": "vertical"
   },
   {
+    "id": "paint16f",
+    "title": "Весна",
+    "category": "metaphysic",
+    "description": "1985 г., батик, 50 х 70 см",
+    "image": "/works/metaphysics/paint16f.jpg",
+    "aspect": "vertical"
+  },
+  {
     "id": "paint17",
     "title": "Дели. Кутуб-Минар",
     "category": "metaphysic",
@@ -491,7 +499,7 @@
     "id": "paint18",
     "title": "Индия. Храм в Наггаре",
     "category": "metaphysic",
-    "description": "1993 г., х.м., 75 х 95 см",
+    "description": "1993 г., бумага, гуашь, 30 х 40 см",
     "image": "/works/metaphysics/paint18.jpg",
     "aspect": "vertical"
   },
@@ -509,6 +517,38 @@
     "category": "metaphysic",
     "description": "1993 г., х.м., 41 х 51 см",
     "image": "/works/metaphysics/paint20.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint20a",
+    "title": "На перевале в Гималаях",
+    "category": "metaphysic",
+    "description": "1992 г., бумага, гуашь, 15 х 10 см",
+    "image": "/works/metaphysics/paint20a.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint20c",
+    "title": "Рынок в Дели",
+    "category": "metaphysic",
+    "description": "1992 г., бумага, гуашь, 15 х 10 см",
+    "image": "/works/metaphysics/paint20c.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint20d",
+    "title": "Пастух в Гималаях",
+    "category": "metaphysic",
+    "description": "1992 г., blue, бумага, гуашь, 15 х 20 см",
+    "image": "/works/metaphysics/paint20d.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint20h",
+    "title": "Шива и Кали",
+    "category": "metaphysic",
+    "description": "1993 г., бумага, гуашь, 30 х 40 см",
+    "image": "/works/metaphysics/paint20h.jpg",
     "aspect": "vertical"
   },
   {
@@ -544,10 +584,18 @@
     "aspect": "vertical"
   },
   {
+    "id": "paint24c",
+    "title": "Три философа",
+    "category": "metaphysic",
+    "description": "2006 г., оргалит, акрил, 80 х 70 см ",
+    "image": "/works/metaphysics/paint24c.jpg",
+    "aspect": "vertical"
+  },
+  {
     "id": "paint25",
     "title": "Геракл и Немейский лев",
     "category": "metaphysic",
-    "description": "1992 г. х.м., 60 х 100 см",
+    "description": "1992 г. х.м., 60 х 100 см. Частное собрание США",
     "image": "/works/metaphysics/paint25.jpg",
     "aspect": "vertical"
   },
@@ -587,7 +635,7 @@
     "id": "paint30",
     "title": "Даная",
     "category": "metaphysic",
-    "description": "1991 г., х. м., 75 х95 см",
+    "description": "1991 г., х. м., 75 х95 см. Частное собрание",
     "image": "/works/metaphysics/paint30.jpg",
     "aspect": "vertical"
   },
@@ -621,6 +669,14 @@
     "category": "metaphysic",
     "description": "1990 г. х.м., 50 х 80 см",
     "image": "/works/metaphysics/paint34.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint34d",
+    "title": "Боярин",
+    "category": "metaphysic",
+    "description": "1994 г. х.м., 60 х 65 см. Частное собрание",
+    "image": "/works/metaphysics/paint34d.jpg",
     "aspect": "vertical"
   },
   {
@@ -672,11 +728,51 @@
     "aspect": "vertical"
   },
   {
+    "id": "paint40c",
+    "title": "Рождество",
+    "category": "metaphysic",
+    "description": "1994 г., х.м. 50 х 40 см",
+    "image": "/works/metaphysics/paint40c.jpg",
+    "aspect": "vertical"
+  },
+  {
     "id": "paint41",
     "title": "Сретение",
     "category": "metaphysic",
-    "description": "1992 г. х.м., 60 х 65 см",
+    "description": "1992 г. х.м., 60 х 65 см. Частное собрание. Дели",
     "image": "/works/metaphysics/paint41.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint41a",
+    "title": "Бегство в Египет",
+    "category": "metaphysic",
+    "description": "1993 г., х.м., 80 х 85 см",
+    "image": "/works/metaphysics/paint41a.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint41c",
+    "title": "Призвание апостолов",
+    "category": "metaphysic",
+    "description": "1993 г., х.м., 80 х 60 см. Частное собрание",
+    "image": "/works/metaphysics/paint41c.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint41g",
+    "title": "Несение креста",
+    "category": "metaphysic",
+    "description": "1990 г. х.м., 90 х 100 см. Собрание Ивановского областного художественного музея",
+    "image": "/works/metaphysics/paint41g.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint41k",
+    "title": "Распятие",
+    "category": "metaphysic",
+    "description": "1990 г., х.м., 35 х 50 см",
+    "image": "/works/metaphysics/paint41k.jpg",
     "aspect": "vertical"
   },
   {
@@ -685,6 +781,54 @@
     "category": "metaphysic",
     "description": "1993 г. х.м., 85 х 80 см. Частное собрание, Амстердам",
     "image": "/works/metaphysics/paint42.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint42b",
+    "title": "Ева",
+    "category": "metaphysic",
+    "description": "1991 г.,х.м., 65 х 60 см. Частное собрание",
+    "image": "/works/metaphysics/paint42b.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint42d",
+    "title": "Каин и Авель",
+    "category": "metaphysic",
+    "description": "1993 г. бумага, гуашь, 30 х 35 см",
+    "image": "/works/metaphysics/paint42d.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint42g",
+    "title": "Ной строит ковчег",
+    "category": "metaphysic",
+    "description": "1993 г., х.м., 75 х 95 см",
+    "image": "/works/metaphysics/paint42g.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint42m",
+    "title": "Лестница Иакова",
+    "category": "metaphysic",
+    "description": "1993 г., бумага, гуашь, 40 х 30 см",
+    "image": "/works/metaphysics/paint42m.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint42t",
+    "title": "Иаков борется с ангелом",
+    "category": "metaphysic",
+    "description": "2008 г., оргалит, акрил, 30 х 25 см",
+    "image": "/works/metaphysics/paint42t.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint42v",
+    "title": "Огненное восхождение пророка Илии",
+    "category": "metaphysic",
+    "description": "1993 г., х.м., 75 х 95 см ",
+    "image": "/works/metaphysics/paint42v.jpg",
     "aspect": "vertical"
   },
   {
@@ -705,9 +849,9 @@
   },
   {
     "id": "paint45",
-    "title": "Апокалипсис. Небесный Иерусалим",
+    "title": "Апокалипсис. Трубящие ангелы",
     "category": "metaphysic",
-    "description": "1993 г., х.м., 75 х 95 см",
+    "description": "1994 г., картон.м. 65 х 50 см. Частное собрание",
     "image": "/works/metaphysics/paint45.jpg",
     "aspect": "vertical"
   },
@@ -715,7 +859,7 @@
     "id": "paint46",
     "title": "Апокалипсис. Вавилонская блудница",
     "category": "metaphysic",
-    "description": "1993 г. картон, масло, 50 х 65 см",
+    "description": "1994 г., картон.м. 50 х 65 см",
     "image": "/works/metaphysics/paint46.jpg",
     "aspect": "vertical"
   },
@@ -736,6 +880,22 @@
     "aspect": "vertical"
   },
   {
+    "id": "paint49c",
+    "title": "Апокалипсис. Армагеддон",
+    "category": "metaphysic",
+    "description": "1993 г. картон, масло, 65 х 50 см",
+    "image": "/works/metaphysics/paint49c.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint49g",
+    "title": "Апокалипсис. Низвержение сатаны",
+    "category": "metaphysic",
+    "description": "1993 г. бумага, гуашь, 30 х 35 см",
+    "image": "/works/metaphysics/paint49g.jpg",
+    "aspect": "vertical"
+  },
+  {
     "id": "paint50",
     "title": "Апокалипсис. Праведники",
     "category": "metaphysic",
@@ -744,11 +904,27 @@
     "aspect": "vertical"
   },
   {
+    "id": "paint59a",
+    "title": "Апокалипсис. Небесный Иерусалим",
+    "category": "metaphysic",
+    "description": "1993 г., х.м., 75 х 95 см",
+    "image": "/works/metaphysics/paint59a.jpg",
+    "aspect": "vertical"
+  },
+  {
     "id": "paint60",
     "title": "Петр и Павел",
     "category": "metaphysic",
     "description": "1993 г., бумага, гуашь, 40 х 30 см",
     "image": "/works/metaphysics/paint60.jpg",
+    "aspect": "vertical"
+  },
+  {
+    "id": "paint60c",
+    "title": "Архангел Михаил у врат Рая",
+    "category": "metaphysic",
+    "description": "1993 г. холст, масло, 40 х 35 см",
+    "image": "/works/metaphysics/paint60c.jpg",
     "aspect": "vertical"
   },
   {
